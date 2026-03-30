@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+ <head>
+  <title>HTML Fundamentals Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+ </head>
+ <body class="page-layout">
+  <header class="main-header">
+   <h1>Haii, ini Heading 1</h1>
+   <nav>
+    <a
+     href="https://github.com/AmandaSyifa27/LM-2026-Fullstack-Web-Dev-MERN-MongoDB"
+     >Visit This Repository on GitHub</a
+    >
+   </nav>
+  </header>
+
+  <main class="main-content">
+   <section class="box-model-demo">
+    <article>
+     <h2>HTML Fundamentals</h2>
+     <p>
+      Ini adalah Paragraf.<br />
+      Paragraf setelah penggunaan tag 'br'.
+     </p>
+
+     <div class="flex-list-container">
+      <div class="list-item">
+       <h3>Fullstack Developer MERN MongoDB</h3>
+       <p>Ordered List (Steps):</p>
+       <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>Learn JavaScript</li>
+       </ol>
+      </div>
+      <div class="list-item">
+       <h3>My Tools</h3>
+       <p>Unordered List (Tools):</p>
+       <ul>
+        <li>VS Code</li>
+        <li>Terminal</li>
+        <li>Git</li>
+       </ul>
+      </div>
+     </div>
+    </article>
+   </section>
+
+   <section class="form-section">
+    <h2>Form Registrasi</h2>
+    <form action="#" method="get" class="styled-form">
+     <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+     </div>
+
+     <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+     </div>
+
+     <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+     </div>
+
+     <div class="form-group radio-group">
+      <p>Role:</p>
+      <input type="radio" id="frontend" name="role" value="frontend" />
+      <label for="frontend" class="inline-label">Frontend</label>
+      <input type="radio" id="backend" name="role" value="backend" />
+      <label for="backend" class="inline-label">Backend</label>
+     </div>
+
+     <div class="form-group checkbox-group">
+      <input type="checkbox" id="terms" name="terms" value="agreed" />
+      <label for="terms" class="inline-label"
+       >I agree to the terms and conditions</label
+      >
+     </div>
+
+     <button type="submit" class="submit-btn">Submit</button>
+    </form>
+   </section>
+  </main>
+
+  <footer class="main-footer">
+   <p>Lab 3 CSS Basics Completed</p>
+  </footer>
+ </body>
+</html>
