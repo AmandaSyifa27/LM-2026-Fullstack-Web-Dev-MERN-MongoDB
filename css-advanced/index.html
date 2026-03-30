@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Advanced Lab - Responsive & Grid</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body class="page-layout">
+  <header class="main-header">
+   <h1>Advanced CSS Layouts</h1>
+   <nav class="main-nav">
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">Features</a>
+    <a href="#" class="nav-link">Gallery</a>
+   </nav>
+  </header>
+
+  <main class="main-content">
+   <section class="intro-section">
+    <h2>Mobile-First Responsive Design</h2>
+    <p>
+     Layout ini menggunakan ukuran relatif seperti <code>rem</code>,
+     <code>%</code>, dan <code>vh</code>. Desain utamanya ditargetkan untuk
+     perangkat <i>mobile</i> terlebih dahulu, lalu disesuaikan dengan
+     <b>Media Queries</b> untuk layar Tablet dan Desktop.
+    </p>
+   </section>
+
+   <section class="grid-section">
+    <h2>CSS Grid Responsive Cards</h2>
+    <p>
+     Ubah ukuran layar browser Anda untuk melihat bagaimana jumlah kolom Grid
+     beradaptasi secara otomatis (1 kolom di HP, 2 kolom di Tablet, dan 4 kolom
+     di Desktop).
+    </p>
+
+    <div class="grid-container">
+     <article class="grid-card">
+      <h3>Card 1</h3>
+      <p>
+       Konten pada Grid item ini akan otomatis menyesuaikan lebar berdasarkan
+       ukuran layarnya.
+      </p>
+     </article>
+     <article class="grid-card">
+      <h3>Card 2</h3>
+      <p>
+       Konten pada Grid item ini akan otomatis menyesuaikan lebar berdasarkan
+       ukuran layarnya.
+      </p>
+     </article>
+     <article class="grid-card">
+      <h3>Card 3</h3>
+      <p>
+       Konten pada Grid item ini akan otomatis menyesuaikan lebar berdasarkan
+       ukuran layarnya.
+      </p>
+     </article>
+     <article class="grid-card">
+      <h3>Card 4</h3>
+      <p>
+       Konten pada Grid item ini akan otomatis menyesuaikan lebar berdasarkan
+       ukuran layarnya.
+      </p>
+     </article>
+    </div>
+   </section>
+  </main>
+
+  <footer class="main-footer">
+   <p>Lab CSS Advanced Completed - Last Mile 2026</p>
+  </footer>
+ </body>
+</html>
