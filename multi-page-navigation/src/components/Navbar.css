@@ -1,0 +1,13 @@
+.nav-link {
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+ font-family: sans-serif;
+}
+.nav-link:hover {
+ color: #3498db;
+}
+.nav-link.active {
+ color: #f1c40f;
+ border-bottom: 2px solid #f1c40f;
+}
