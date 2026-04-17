@@ -1,0 +1,23 @@
+{
+ "name": "react-jsx-lab",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "build": "babel src -d dist && browserify dist/index.js -o dist/bundle.js"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "dependencies": {
+  "react": "^19.2.5",
+  "react-dom": "^19.2.5"
+ },
+ "devDependencies": {
+  "@babel/cli": "^7.28.6",
+  "@babel/core": "^7.29.0",
+  "@babel/preset-env": "^7.29.2",
+  "@babel/preset-react": "^7.28.5",
+  "browserify": "^17.0.1"
+ }
+}
