@@ -1,17 +1,16 @@
-require("dotenv").config(); // Menyalakan pembaca file .env
+require("dotenv").config();
 const express = require("express");
-const connectDB = require("./config/db.js");
-const demoRoutes = require("./routes/demo.route.js");
+const connectDB = require("./config/db");
+const demoRoutes = require("./routes/demo.route");
 
 const app = express();
-
-app.use(express.json());
+const PORT = process.env.PORT || 5000;
 
 connectDB();
 
+app.use(express.json());
 app.use("/api", demoRoutes);
 
-const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
- console.log(`Server Database Model berjalan di http://localhost:${PORT}`);
+ console.log(`Server running on port ${PORT}`);
 });
